@@ -8,8 +8,7 @@
 *.zip 
 *.tar.gz 
 *.rar  
-.metadata 
-bin/ 
+.metadata  
 tmp/ 
 *.tmp 
 *.bak 
@@ -19,7 +18,9 @@ local.properties
 .settings/ 
 .loadpath 
 .recommenders
-
+/bin/
+.project
+.classpath
 *.idea
 *.iml
 *.DS_STORE
